@@ -1,0 +1,55 @@
+/* Gerador de Folheto Litúrgico — estilos com escopo em .gerador (usa as cores de /site.css) */
+.gerador .gerador-rito { margin: 0 0 14px; color: var(--suave); }
+.gerador .gerador-rito strong { color: var(--vermelho); }
+.gerador .cartao {
+  background: #fff; border: 1px solid var(--borda); border-radius: var(--raio);
+  padding: 24px; margin-top: 16px; box-shadow: var(--sombra);
+}
+.gerador .aviso { background: #fff6e3; border: 1px solid #f0cf8e; border-radius: var(--raio); padding: 12px 16px; font-size: 15px; }
+.gerador .seletor-rito { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 20px; }
+.gerador .seletor-rito label {
+  display: flex; flex-direction: row; align-items: flex-start; gap: 10px; cursor: pointer;
+  padding: 14px 16px; border: 1.5px solid var(--borda); border-radius: var(--raio); background: #fff; color: var(--tinta);
+}
+.gerador .seletor-rito label:has(input:checked) { border-color: var(--vermelho); background: #fdf3f1; }
+.gerador .seletor-rito input { margin-top: 5px; accent-color: var(--vermelho); }
+.gerador .seletor-rito span { display: flex; flex-direction: column; }
+.gerador .seletor-rito small { color: var(--suave); font-size: 14px; }
+body.rito-menor .gerador .so-rito1 { display: none; }
+.gerador .linha-data { display: grid; grid-template-columns: 230px 1fr; gap: 16px; }
+.gerador label { display: flex; flex-direction: column; gap: 4px; font-size: 14px; font-weight: 600; color: var(--suave); }
+.gerador input, .gerador select {
+  font: inherit; font-weight: 400; font-size: 16px; color: var(--tinta);
+  padding: 9px 11px; border: 1px solid var(--borda); border-radius: 8px; background: #fff; min-width: 0;
+}
+.gerador .dia { margin: 20px 0 6px; padding: 20px; border-radius: var(--raio); background: var(--creme); border: 1px solid var(--borda); transition: opacity .15s; }
+.gerador .dia.carregando { opacity: .55; }
+.gerador .dia.erro { color: var(--vermelho-escuro); }
+.gerador .cabecalho-dia { display: flex; gap: 14px; align-items: flex-start; }
+.gerador .cor { width: 12px; align-self: stretch; border-radius: 4px; background: var(--vermelho); flex: none; min-height: 48px; }
+.gerador .cor-verde { background: #2f6b3b; } .gerador .cor-roxo, .gerador .cor-violeta { background: #5b2a6e; }
+.gerador .cor-branco, .gerador .cor-dourado { background: var(--ouro); } .gerador .cor-vermelho { background: var(--vermelho); }
+.gerador .cor-rosa { background: #c46b8b; } .gerador .cor-preto { background: #222; }
+.gerador .dia h2 { margin: 0; font-size: 28px; }
+.gerador .subtitulo { margin: 2px 0 0; font-style: italic; }
+.gerador .meta { margin: 4px 0 0; color: var(--suave); font-size: 15px; }
+.gerador .colunas { display: grid; grid-template-columns: 1fr 1.4fr; gap: 24px; margin-top: 14px; }
+.gerador .dia h3 { margin: 14px 0 4px; font-family: var(--fonte-texto); font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: var(--vermelho); }
+.gerador .dia h3 small { text-transform: none; letter-spacing: 0; color: var(--suave); font-weight: 400; }
+.gerador .dia p { margin: 0; }
+.gerador .leituras { list-style: none; margin: 0; padding: 0; }
+.gerador .leituras span { display: inline-block; min-width: 92px; color: var(--suave); font-size: 14px; }
+.gerador .vazio { color: var(--suave); font-style: italic; }
+.gerador .alt { margin-top: 10px; }
+.gerador .avisos-dia { margin: 14px 0 0; padding-left: 18px; color: #8a5a00; font-size: 14px; }
+.gerador .botoes { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+.gerador .botao { border: 1.5px solid var(--vermelho); background: #fff; color: var(--vermelho); }
+.gerador .botao.primario { background: var(--vermelho); color: #fff; }
+.gerador .botao:disabled { opacity: .6; cursor: progress; }
+.gerador .dica { margin: 12px 0 0; font-size: 14px; color: var(--suave); }
+.gerador .opcoes summary { cursor: pointer; font-weight: 700; color: var(--azul-escuro); }
+.gerador .grade { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px 18px; margin-top: 16px; }
+.gerador label.check { flex-direction: row; align-items: center; gap: 8px; color: var(--tinta); font-weight: 400; }
+@media (max-width: 720px) {
+  .gerador .linha-data, .gerador .colunas, .gerador .seletor-rito { grid-template-columns: 1fr; }
+}

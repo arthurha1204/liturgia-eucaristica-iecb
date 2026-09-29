@@ -1,0 +1,21 @@
+{
+  "name": "liturgia-eucaristica-iecb",
+  "version": "1.0.0",
+  "description": "Site da Igreja Episcopal Carismática do Brasil (IECB), com painel administrativo e gerador do folheto da Santa Eucaristia (API Estêvão).",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js",
+    "dev": "node --watch --env-file-if-exists=.env server.js",
+    "teste": "node --env-file-if-exists=.env ferramentas/teste.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "multer": "^2.4.0",
+    "pdf-lib": "^1.17.1",
+    "pdfkit": "^0.20.2"
+  }
+}

@@ -1,0 +1,18 @@
+﻿services:
+  - type: web
+    name: liturgia-eucaristica-iecb
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: ATRAS_DE_PROXY
+        value: "1"
+      - key: ESTEVAO_PRAYER_BOOK
+        value: loc_2015
+      - key: ESTEVAO_API_KEY
+        sync: false
+      - key: ADMIN_SENHA
+        sync: false

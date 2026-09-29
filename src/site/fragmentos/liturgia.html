@@ -1,0 +1,125 @@
+<p class="gerador-rito">Rito selecionado: <strong id="nome-rito">Rito I</strong></p>
+<div id="aviso-api" class="aviso" hidden></div>
+
+<section class="cartao principal">
+  <div class="seletor-rito" role="radiogroup" aria-label="Rito">
+    <label><input type="radio" name="rito" value="I" checked> <span><strong>Rito I</strong><small>Completo, com Credo, Intercessões, Prefácio e Sanctus</small></span></label>
+    <label><input type="radio" name="rito" value="menor"> <span><strong>Rito Menor</strong><small>Forma simplificada e mais breve</small></span></label>
+  </div>
+
+  <div class="linha-data">
+    <label>Data da celebração
+      <input type="date" id="data">
+    </label>
+    <label>Nome da comunidade (capa)
+      <input type="text" id="comunidade" placeholder="Ex.: Paróquia da Santíssima Trindade">
+    </label>
+  </div>
+
+  <div id="dia" class="dia carregando">Consultando o calendário…</div>
+
+  <div class="botoes">
+    <button id="baixar-livreto" class="botao primario">Baixar livreto para impressão</button>
+    <button id="baixar-a5" class="botao">Baixar PDF simples (A5)</button>
+  </div>
+  <p class="dica">Livreto: imprima em <strong>A4, frente e verso, virando pela borda curta</strong>, empilhe as folhas na ordem e dobre ao meio.</p>
+</section>
+
+<details class="cartao opcoes">
+  <summary>Opções do rito</summary>
+  <div class="grade">
+    <label class="so-rito1">Ordem Penitencial
+      <select data-op="penitencial">
+        <option value="inicio">No início (após a Coleta pela Pureza)</option>
+        <option value="intercessoes">Após as Intercessões</option>
+        <option value="omitir">Omitir</option>
+      </select>
+    </label>
+    <label class="so-rito1">Lei de Deus
+      <select data-op="lei">
+        <option value="auto">Automático (Decálogo na Quaresma)</option>
+        <option value="decalogo">Decálogo</option>
+        <option value="sumario">Sumário da Lei</option>
+        <option value="nenhum">Nenhum</option>
+      </select>
+    </label>
+    <label class="so-rito1">Convite à Confissão
+      <select data-op="conviteConfissao">
+        <option value="1">Confessemos humildemente…</option>
+        <option value="2">Vós, que verdadeira e sinceramente…</option>
+      </select>
+    </label>
+    <label class="so-rito1">Saudação
+      <select data-op="saudacao">
+        <option value="espirito">O Espírito do Senhor seja convosco.</option>
+        <option value="senhor_aqui">O Senhor está aqui.</option>
+      </select>
+    </label>
+    <label class="so-rito1">Credo
+      <select data-op="credo">
+        <option value="auto">Automático (domingos e festas)</option>
+        <option value="niceno">Credo Niceno</option>
+        <option value="apostolico">Credo Apostólico</option>
+        <option value="nenhum">Sem Credo</option>
+      </select>
+    </label>
+    <label class="so-rito1">Saudação da Paz
+      <select data-op="paz">
+        <option value="intercessoes">Após as Intercessões</option>
+        <option value="fracao">Após o Partir do Pão</option>
+      </select>
+    </label>
+    <label class="so-rito1">Após o Partir do Pão
+      <select data-op="fracao">
+        <option value="agnus">Cordeiro de Deus</option>
+        <option value="humilde">Oração de Humilde Acesso</option>
+        <option value="ambos">Ambos</option>
+      </select>
+    </label>
+    <label class="so-rito1">Pós-Comunhão
+      <select data-op="posComunhao">
+        <option value="1">Onipotente e Eterno Deus…</option>
+        <option value="2">Ó Deus Todo-poderoso, rendemos-te graças…</option>
+      </select>
+    </label>
+    <label class="so-rito1">Gloria in Excelsis
+      <select data-op="gloria">
+        <option value="auto">Automático (festas; omitido no Advento e Quaresma)</option>
+        <option value="sim">Incluir</option>
+        <option value="nao">Omitir</option>
+      </select>
+    </label>
+    <label class="so-rito1">Prefácio
+      <select data-op="prefacio" id="sel-prefacio"><option value="auto">Automático (conforme o Próprio)</option></select>
+    </label>
+    <label class="so-rito1">Prefácio do Dia do Senhor (domingos)
+      <select data-op="prefacioDiaDoSenhor">
+        <option value="2">De Deus Filho</option>
+        <option value="1">De Deus Pai</option>
+        <option value="3">De Deus Espírito Santo</option>
+      </select>
+    </label>
+    <label>Bênção
+      <select data-op="bencao" id="sel-bencao"><option value="auto">Automático (da quadra)</option></select>
+    </label>
+    <label>Próprio (coleta)
+      <select data-op="proprio" id="sel-proprio"><option value="">Automático (calendário)</option></select>
+    </label>
+    <label>Fonte da coleta
+      <select data-op="fonteColeta">
+        <option value="loc1987">Livro de Oração Comum 1987</option>
+        <option value="api">API Estêvão</option>
+      </select>
+    </label>
+    <label>Rubricas
+      <select data-op="rubricas">
+        <option value="essenciais">Essenciais</option>
+        <option value="completas">Completas</option>
+        <option value="nenhuma">Nenhuma</option>
+      </select>
+    </label>
+    <label class="check so-rito1"><input type="checkbox" data-op="abertura" checked> Sentença de abertura (Vinde, celebremos…)</label>
+    <label class="check"><input type="checkbox" data-op="textosLeituras" checked> Incluir o texto das leituras quando a API fornecer</label>
+    <label class="check"><input type="checkbox" data-op="rubricasVermelhas" checked> Rubricas em vermelho</label>
+  </div>
+</details>

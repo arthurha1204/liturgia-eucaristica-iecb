@@ -1,0 +1,23 @@
+[
+  {
+    "id": "fafa5403-4f03-494a-9168-cc3f9acc7fa8",
+    "nome": "Dom [Nome do Bispo Primaz]",
+    "cargo": "Bispo Primaz",
+    "grupo": "Bispo Primaz",
+    "bio": "[Breve apresentação do Bispo Primaz.]"
+  },
+  {
+    "id": "47a7002d-1cd3-4dc6-80ce-4ab412b0be50",
+    "nome": "Dom [Nome]",
+    "cargo": "Bispo Diocesano de [Diocese]",
+    "grupo": "Conselho de Bispos",
+    "bio": ""
+  },
+  {
+    "id": "fb238cc7-ba53-4d29-9bea-84cb12fd66f0",
+    "nome": "Dom [Nome]",
+    "cargo": "Bispo Diocesano de [Diocese]",
+    "grupo": "Conselho de Bispos",
+    "bio": ""
+  }
+]

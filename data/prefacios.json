@@ -1,0 +1,79 @@
+{
+  "_fonte": "Livro de Oração Comum, IEAB (1987), Prefácios Próprios, pp. 99-103",
+  "dia_do_senhor_1": {
+    "titulo": "Dia do Senhor — De Deus Pai",
+    "texto": "Pois Tu és a fonte da luz e da vida; fizeste-nos à tua imagem e nos chamaste a uma vida nova em Jesus Cristo, nosso Senhor."
+  },
+  "dia_do_senhor_2": {
+    "titulo": "Dia do Senhor — De Deus Filho",
+    "texto": "Mediante Jesus Cristo, nosso Senhor, que, no primeiro dia da semana, venceu a morte e o túmulo, e, por sua gloriosa ressurreição, nos abriu as portas da vida eterna."
+  },
+  "dia_do_senhor_3": {
+    "titulo": "Dia do Senhor — De Deus Espírito Santo",
+    "texto": "Porque nos fizeste nascer da água e do Espírito Santo, tornando-nos teu povo, em Jesus Cristo, nosso Senhor, para manifestar a tua glória ao mundo."
+  },
+  "advento": {
+    "titulo": "Advento",
+    "texto": "Porque enviaste teu amado Filho para nos redimir do pecado e da morte e tornar-nos herdeiros da vida eterna, para que, quando Ele vier em poder e grande triunfo para julgar o mundo, nos regozijemos em contemplar o esplendor de sua glória."
+  },
+  "encarnacao": {
+    "titulo": "Encarnação",
+    "texto": "Porque nos deste Jesus Cristo, teu único Filho, o qual, por obra do Espírito Santo, nasceu neste tempo da Virgem Maria, e foi feito homem, para que nós, libertos do pecado, recebêssemos o poder de sermos teus filhos."
+  },
+  "epifania": {
+    "titulo": "Epifania",
+    "texto": "Porque, no mistério do Verbo feito carne, fizeste brilhar uma nova luz em nossos corações e conhecer tua glória na face de teu Filho Jesus Cristo, nosso Senhor."
+  },
+  "quaresma": {
+    "titulo": "Quaresma",
+    "texto": "Por Jesus Cristo, nosso Senhor, o qual conhece as nossas fraquezas, pois em tudo foi tentado como nós, mas sem pecar; fazendo-nos, por sua graça, triunfar sobre todo o mal e viver, não só para nós mesmos, mas para Aquele que por nós morreu e ressuscitou."
+  },
+  "semana_santa": {
+    "titulo": "Semana Santa",
+    "texto": "Por Jesus Cristo, nosso Senhor, o qual pelos nossos pecados foi erguido na Cruz, para que atraísse para Si o mundo todo; e por seu sofrimento e morte tornou-se a fonte de salvação eterna para todos os que Nele confiam."
+  },
+  "ressurreicao": {
+    "titulo": "Ressurreição",
+    "texto": "Principalmente, porém, cumpre-nos louvar-te pela gloriosa Ressurreição de teu Filho Jesus Cristo, nosso Senhor; pois é ele o verdadeiro Cordeiro Pascal, que foi imolado por nós, e tirou os pecados do mundo; o qual por sua morte destruiu a morte, e por sua ressurreição, nos conquistou à vida eterna."
+  },
+  "ascensao": {
+    "titulo": "Ascensão",
+    "texto": "Por Jesus Cristo, nosso Senhor, que, depois de sua gloriosa ressurreição, claramente apareceu a todos os discípulos, e, à vista deles, foi elevado aos céus, para que, onde Ele estiver, estejamos nós também e com Ele reinemos."
+  },
+  "pentecostes": {
+    "titulo": "Pentecostes",
+    "texto": "Por intervenção de Jesus Cristo, nosso Senhor, por cuja fidelíssima promessa o Espírito Santo, neste tempo, desceu sobre os discípulos, para os ensinar e guiar à toda verdade, unindo os povos de diferentes línguas na confissão de uma só fé, dando à tua Igreja o poder de te servir como sacerdócio real e pregar o Evangelho a todas as nações."
+  },
+  "trindade": {
+    "titulo": "Santíssima Trindade",
+    "texto": "Porque, com teu Unigênito Filho e o Espírito Santo, Três Pessoas, um só Deus, és Senhor eterno e soberano, digno de adoração e de honra pelos séculos dos séculos."
+  },
+  "todos_os_santos": {
+    "titulo": "Todos os Santos",
+    "texto": "Que, na multidão de teus Santos, nos cercaste com tão grande nuvem de testemunhas, para que, alegrando-nos em sua comunhão, corramos com paciência a carreira que nos está proposta e juntos recebamos todos a imperecível coroa da glória."
+  },
+  "dia_de_um_santo": {
+    "titulo": "Dia de um Santo",
+    "texto": "Pela maravilhosa graça declarada em todos os teus santos, que foram os vasos escolhidos de tua graça e luzes no mundo em suas gerações."
+  },
+  "apostolos": {
+    "titulo": "Apóstolos e Ordenações",
+    "texto": "Mediante o Grande Pastor do teu rebanho, Jesus Cristo, nosso Senhor, o qual, após a sua ressurreição, enviou os seus apóstolos para pregar o Evangelho a todas as nações, e prometeu estar com eles até o fim dos tempos."
+  },
+  "dedicacao": {
+    "titulo": "Dedicação de uma Igreja",
+    "texto": "Por Jesus Cristo, Sumo Sacerdote, em quem somos pedras vivas na construção do Santo Templo, para que ofereçamos diante de Ti o sacrifício de louvor e orações, santo e agradável, perante teus olhos."
+  },
+  "batismo": {
+    "titulo": "Batismo",
+    "texto": "Porque, em Jesus Cristo, nosso Senhor, nos adotaste como teus filhos e filhas, fizeste-nos cidadãos do teu Reino e nos deste o Espírito Santo, para nos guiar a toda a verdade."
+  },
+  "casamento": {
+    "titulo": "Casamento",
+    "texto": "Porque, no amor conjugal, nos deste a imagem da Jerusalém celestial, adornada como noiva para o seu noivo, teu Filho Jesus Cristo, nosso Senhor, o qual a ama e deu sua vida por ela, a fim de renovar toda a criação."
+  },
+  "memorial": {
+    "titulo": "Memorial",
+    "texto": "Por Jesus Cristo, nosso Senhor, o qual ressurgiu vitorioso dentre os mortos e nos conforta com a bem-aventurada esperança da vida eterna. Pois, para o teu povo fiel, a vida não cessa, mas é transformada na semelhança do Senhor e, ainda que nosso corpo mortal seja colocado na sepultura, haverá um lugar preparado para a nossa eterna morada nos céus."
+  }
+}

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Painel · IECB</title>
+  <link rel="icon" href="/brasao.png">
+  <link rel="stylesheet" href="/admin/admin.css">
+</head>
+<body>
+  <section id="tela-login" class="login" hidden>
+    <form id="form-login" class="caixa-login">
+      <img src="/brasao.png" alt="" width="64">
+      <h1>Painel da IECB</h1>
+      <p>Entre com a senha de administração.</p>
+      <label>Senha <input type="password" id="senha" autocomplete="current-password" required></label>
+      <button class="bt bt-vermelho" type="submit">Entrar</button>
+      <p id="erro-login" class="erro" role="alert"></p>
+    </form>
+  </section>
+
+  <div id="tela-painel" class="painel" hidden>
+    <aside class="lateral">
+      <a class="marca" href="/" target="_blank" rel="noopener"><img src="/brasao.png" alt="" width="34"> <span>IECB <small>ver o site ↗</small></span></a>
+      <nav id="nav-colecoes" aria-label="Seções do painel"></nav>
+      <button id="sair" class="bt bt-claro">Sair</button>
+    </aside>
+    <main class="area">
+      <header class="area-topo">
+        <div>
+          <h1 id="titulo-colecao">Painel</h1>
+          <p id="ajuda-colecao" class="ajuda"></p>
+        </div>
+        <div class="acoes-topo" id="acoes-topo"></div>
+      </header>
+      <div id="aviso" class="aviso" role="status" hidden></div>
+      <div id="conteudo-painel"></div>
+    </main>
+  </div>
+
+  <dialog id="dialogo">
+    <form id="form-item" method="dialog">
+      <header><h2 id="titulo-dialogo">Editar</h2><button type="button" class="fechar" data-fechar aria-label="Fechar">×</button></header>
+      <div id="campos" class="campos"></div>
+      <footer>
+        <button type="button" class="bt bt-claro" data-fechar>Cancelar</button>
+        <button type="submit" class="bt bt-vermelho" id="salvar">Salvar</button>
+      </footer>
+    </form>
+  </dialog>
+
+  <script src="/admin/admin.js" defer></script>
+</body>
+</html>

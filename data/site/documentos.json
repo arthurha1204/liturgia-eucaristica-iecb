@@ -1,0 +1,23 @@
+[
+  {
+    "id": "92526df2-1d13-445d-a08d-b106f0b5bd25",
+    "titulo": "Livro de Oração Comum (LOC)",
+    "categoria": "Liturgia",
+    "descricao": "Ofícios Diários, Santa Eucaristia, Coletas do Ano Cristão e Saltério.",
+    "icone": "livro"
+  },
+  {
+    "id": "341a7d0d-44cf-4091-b5ac-b40e993a0c15",
+    "titulo": "Cânones da IECB",
+    "categoria": "Cânones",
+    "descricao": "Constituição e Cânones que regem a vida da Igreja.",
+    "icone": "pdf"
+  },
+  {
+    "id": "fad9827b-e32d-4b7e-9cb0-cb6720e0c7c4",
+    "titulo": "Apostila sobre a IECB",
+    "categoria": "Formação",
+    "descricao": "Material do curso de Confirmação e integração de novos membros.",
+    "icone": "pdf"
+  }
+]
